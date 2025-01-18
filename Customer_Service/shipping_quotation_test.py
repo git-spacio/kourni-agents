@@ -4,6 +4,8 @@ from sheets_lib.main_sheets import GoogleSheets
 
 # Los posible courier son Starken, BLue Express y Recibelo
 # IMPROTANTE, el precio Agencia y a Domicilio son los mismos en Starken
+# IMPORTANTE 2, los precios de envio ya incluyen el IVA 
+
 sheet_starken = GoogleSheets('1I21ydjtqny9Xy22YHuHHrB888KHtpXbj9_YU53VdeEY')
 starken_matrix = sheet_starken.read_dataframe('Starken Shopify')
 
